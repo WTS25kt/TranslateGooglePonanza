@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Translate Ponanza App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="translator">
+        <textarea id="fromText" placeholder="翻訳したいテキストを入力"></textarea>
+        <select id="selectTag">
+            <option value="ja|en">日本語から英語</option>
+            <option value="en|ja">英語から日本語</option>
+        </select>
+        <button onclick="translateText()">翻訳</button>
+        <textarea id="toText" placeholder="翻訳結果がここに表示されます"></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
